@@ -43,16 +43,21 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
-  <ItemGroup>    <Compile Include="Boundary\Form.cs" />
+  <ItemGroup>
+    <Compile Include="Boundary\Form.cs" />
     <Compile Include="Boundary\HomeScreen.cs" />
     <Compile Include="Boundary\LoginForm.cs" />
     <Compile Include="Boundary\ProductForm.cs" />
     <Compile Include="Boundary\ProductPage.cs" />
     <Compile Include="Boundary\RatingForm.cs" />
+    <Compile Include="Controller\ApplicationController.cs" />
     <Compile Include="Controller\CancelControler.cs" />
     <Compile Include="Controller\Controller.cs" />
+    <Compile Include="Controller\DBConnector.cs" />
     <Compile Include="Controller\LoginController.cs" />
+    <Compile Include="Controller\LogoutController.cs" />
     <Compile Include="Controller\RateController.cs" />
+    <Compile Include="Controller\RatingController.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProductRatingSystem.Controller
 {
-    class ApplicationController
+    class RatingController
     {
     }
 }
