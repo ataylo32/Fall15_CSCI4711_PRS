@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Boundary\Form.cs" />
+    <Compile Include="Boundary\HomeScreen.cs" />
+    <Compile Include="Boundary\LoginForm.cs" />
+    <Compile Include="Boundary\ProductForm.cs" />
+    <Compile Include="Boundary\ProductPage.cs" />
+    <Compile Include="Boundary\RatingForm.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,7 +81,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Boundary\" />
     <Folder Include="Controller\" />
     <Folder Include="Enity\" />
   </ItemGroup>
