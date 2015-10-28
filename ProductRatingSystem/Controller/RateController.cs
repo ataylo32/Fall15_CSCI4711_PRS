@@ -6,13 +6,16 @@ using System.Threading.Tasks;
 
 namespace ProductRatingSystem.Controller
 {
-    class Controller
+    class RateController : Controller
     {
-        public void Cancel()
+        public void RateProduct()
         {
-
 
         }
 
+        public void Get()
+        {
+
+        }
     }
 }
