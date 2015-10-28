@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\CancelControler.cs" />
     <Compile Include="Controller\Controller.cs" />
     <Compile Include="Controller\LoginController.cs" />
     <Compile Include="Controller\RateController.cs" />
@@ -79,7 +80,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Boundary\" />
-    <Folder Include="Controller\" />
     <Folder Include="Enity\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
