@@ -63,10 +63,25 @@
   <ItemGroup>
     <Compile Include="Boundary\Form.cs" />
     <Compile Include="Boundary\HomeScreen.cs" />
+    <Compile Include="Boundary\HomeScreen.Designer.cs">
+      <DependentUpon>HomeScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Boundary\LoginForm.cs" />
+    <Compile Include="Boundary\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Boundary\ProductForm.cs" />
+    <Compile Include="Boundary\ProductForm.Designer.cs">
+      <DependentUpon>ProductForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Boundary\ProductPage.cs" />
+    <Compile Include="Boundary\ProductPage.Designer.cs">
+      <DependentUpon>ProductPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Boundary\RatingForm.cs" />
+    <Compile Include="Boundary\RatingForm.Designer.cs">
+      <DependentUpon>RatingForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controller\ApplicationController.cs" />
     <Compile Include="Controller\CancelControler.cs" />
     <Compile Include="Controller\Controller.cs" />
