@@ -43,8 +43,12 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Controller\ApplicationController.cs" />
+  <ItemGroup>    <Compile Include="Boundary\Form.cs" />
+    <Compile Include="Boundary\HomeScreen.cs" />
+    <Compile Include="Boundary\LoginForm.cs" />
+    <Compile Include="Boundary\ProductForm.cs" />
+    <Compile Include="Boundary\ProductPage.cs" />
+    <Compile Include="Boundary\RatingForm.cs" />
     <Compile Include="Controller\CancelControler.cs" />
     <Compile Include="Controller\Controller.cs" />
     <Compile Include="Controller\LoginController.cs" />
@@ -80,7 +84,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Boundary\" />
     <Folder Include="Enity\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
