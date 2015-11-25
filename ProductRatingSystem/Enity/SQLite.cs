@@ -10,6 +10,8 @@ namespace ProductRatingSystem.Enity
     class SQLite
     {
 
+        
+        
 
 
     }

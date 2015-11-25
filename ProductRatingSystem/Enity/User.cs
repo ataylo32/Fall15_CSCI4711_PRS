@@ -10,6 +10,7 @@ namespace ProductRatingSystem.Enity
     {
         public string Username;
         public int UserID;
+        public string Password;
         public bool AdminRights;
 
 
