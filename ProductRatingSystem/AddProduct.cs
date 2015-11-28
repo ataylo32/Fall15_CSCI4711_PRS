@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProductRatingSystem
 {
-    public partial class MainMenu : Form
+    public partial class AddProduct : Form
     {
-        public MainMenu()
+        public AddProduct()
         {
             InitializeComponent();
         }
@@ -22,14 +22,12 @@ namespace ProductRatingSystem
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
-            Login_Dialog_Form1 login = new Login_Dialog_Form1();
-            login.Show();
-          
+
         }
 
-        private void MainMenu_Load(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
 
         }

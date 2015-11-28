@@ -40,18 +40,18 @@ namespace ProductRatingSystem
             // 
             // btnOk
             // 
-            this.btnOk.Location = new System.Drawing.Point(114, 127);
+            this.btnOk.Location = new System.Drawing.Point(290, 169);
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(54, 23);
             this.btnOk.TabIndex = 0;
-            this.btnOk.Text = "&Ok";
+            this.btnOk.Text = "&Submit";
             this.btnOk.UseVisualStyleBackColor = true;
             this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
             // btnCancel
             // 
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(174, 127);
+            this.btnCancel.Location = new System.Drawing.Point(12, 169);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(54, 23);
             this.btnCancel.TabIndex = 1;

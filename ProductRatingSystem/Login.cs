@@ -24,19 +24,14 @@ namespace ProductRatingSystem
                 MessageBox.Show("Wrong Username", "Invalid Username", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
+
+
             else
             {
-                if (false)
-                {
-                    MessageBox.Show("Wrong Password", "Invalid Password", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return false;
-                }
-                else
-                {
-                    //TODO: add code to validate password.
-                    return true;
-                }
+                //TODO: add code to validate password.
+                return true;
             }
+            
         }
         private void btnOk_Click(object sender, EventArgs e)
         {

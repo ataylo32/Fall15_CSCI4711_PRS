@@ -61,7 +61,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "MainMenu";
-            this.Text = "Form1";
+            this.Text = "Product Rating System";
             this.Load += new System.EventHandler(this.MainMenu_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
