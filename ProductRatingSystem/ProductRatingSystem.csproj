@@ -82,23 +82,33 @@
     <Compile Include="AddProduct.Designer.cs">
       <DependentUpon>AddProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="Boundary\HomeScreen.cs" />
+    <Compile Include="Boundary\HomeScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Boundary\HomeScreen.Designer.cs">
       <DependentUpon>HomeScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="Boundary\LoginForm.cs" />
+    <Compile Include="Boundary\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Boundary\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Boundary\ProductForm.cs" />
+    <Compile Include="Boundary\ProductForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Boundary\ProductForm.Designer.cs">
       <DependentUpon>ProductForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Boundary\ProductPage.cs" />
+    <Compile Include="Boundary\ProductPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Boundary\ProductPage.Designer.cs">
       <DependentUpon>ProductPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Boundary\RatingForm.cs" />
+    <Compile Include="Boundary\RatingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Boundary\RatingForm.Designer.cs">
       <DependentUpon>RatingForm.cs</DependentUpon>
     </Compile>
@@ -131,6 +141,11 @@
     </Compile>
     <Compile Include="ProductPage.Designer.cs">
       <DependentUpon>ProductPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductRatingSystemDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProductRatingSystemDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -165,6 +180,17 @@
       <DependentUpon>RateProduct.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
+    <None Include="ProductRatingSystemDataSet.xsc">
+      <DependentUpon>ProductRatingSystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ProductRatingSystemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProductRatingSystemDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProductRatingSystemDataSet.xss">
+      <DependentUpon>ProductRatingSystemDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
