@@ -7,11 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using ProductRatingSystem.Enity;
+
 
 namespace ProductRatingSystem
 {
     public partial class MainMenu : Form
     {
+
         public MainMenu()
         {
             InitializeComponent();
@@ -31,7 +35,31 @@ namespace ProductRatingSystem
 
         private void MainMenu_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'productRatingSystemDataSet.Ratings' table. You can move, or remove it, as needed.
+            this.ratingsTableAdapter.Fill(this.productRatingSystemDataSet.Ratings);
+            // TODO: This line of code loads data into the 'productRatingSystemDataSet.Product' table. You can move, or remove it, as needed.
+            this.productTableAdapter.Fill(this.productRatingSystemDataSet.Product);
 
         }
+
+        private void productBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.productBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.productRatingSystemDataSet);
+
+        }
+
+        private void productDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+
+
+
+
+
+
     }
 }

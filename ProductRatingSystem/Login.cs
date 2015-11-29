@@ -38,12 +38,16 @@ namespace ProductRatingSystem
             if (!ValidatePassword())
             {
                 txtUserName.Clear();
-                txtPassword.Clear();                
+                txtPassword.Clear();
+                MessageBox.Show("The calculations are complete", "My Application",
+                        MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk);
                 return;
             }
             else
             {
                 this.DialogResult = DialogResult.OK;
+                MessageBox.Show("You are logged on!", "Product Rating System",
+        MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk);
                 this.Close();
             }
         }

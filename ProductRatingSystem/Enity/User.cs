@@ -14,11 +14,12 @@ namespace ProductRatingSystem.Enity
         public bool AdminRights;
 
 
-        public User(string username, int userid, bool adminrights)
+        public User(string username, int userid, bool adminrights, string password)
         {
             Username = username;
             UserID = userid;
             AdminRights = adminrights;
+            Password = password;
 
         }
 
